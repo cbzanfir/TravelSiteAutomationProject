@@ -257,7 +257,6 @@ public class BookingUserFlow {
     }
 
     //HELPER METHODS
-
     private void clickAndType(By locator, String text) {
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
         element.click();
